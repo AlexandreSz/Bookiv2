@@ -1,0 +1,234 @@
+    body>* {
+        padding: 0 100px;
+    }
+    /************************************
+    *            header                 *
+    ************************************/
+    
+    nav {
+        padding-top: 50px;
+    }
+    
+    #logomob {
+        margin: 0;
+        margin-right: auto;
+        height: 61px;
+        width: 126px;
+    }
+    
+    .subnav {
+        flex-basis: unset;
+    }
+    
+    nav a {
+        border-top: 1px solid transparent;
+        padding: 32px;
+    }
+    
+    .subnav a {
+        flex-basis: unset;
+        border-top: 1px solid transparent;
+        border-bottom: none;
+    }
+    
+    .subnav a:hover {
+        border-top: 1px solid var(--blue);
+        border-bottom: none;
+    }
+    /************************************
+    *            recherche              *
+    ************************************/
+    
+    .search {
+        align-items: flex-start;
+    }
+    
+    .title-main {
+        padding-left: 0;
+    }
+    
+    .recherche {
+        height: 50px;
+    }
+    
+    .recherche button i {
+        display: none;
+    }
+    
+    .searchs {
+        display: flex;
+        font-size: 19px;
+        font-family: 'Raleway';
+        padding: 0 16px;
+    }
+    
+    .recherche button {
+        border-radius: 0 16px 16px 0;
+        height: 50px;
+    }
+    /************************************
+    *            Filtres                *
+    ************************************/
+    
+    .filtre-list {
+        padding-left: 0;
+        margin-left: 0;
+        margin-top: 32px;
+        gap: 32px;
+    }
+    
+    .filtre-list h2 {
+        padding-right: 0;
+    }
+    /************************************
+    *               Infos               *
+    ************************************/
+    
+    .info {
+        margin-top: 32px;
+        padding-left: 0;
+    }
+    /************************************
+    *             Populaires            *
+    ************************************/
+    
+    .devise {
+        font-weight: bold;
+    }
+    
+    .apaprts {
+        display: flex;
+        gap: 16px;
+    }
+    
+    .populaires {
+        order: 1;
+        flex-basis: 33%;
+        border-radius: 16px;
+    }
+    
+    .card-pop {
+        width: 343px;
+    }
+    
+    .titre-icon h2 {
+        padding-right: 80px;
+        margin-left: auto;
+    }
+    
+    .titre-icon i {
+        margin-right: auto;
+    }
+    /************************************
+    *             Hébergements          *
+    ************************************/
+    
+    .villes {
+        background-color: var(--grey);
+        flex-basis: 66%;
+        border-radius: 16px;
+    }
+    
+    .villes h2 {
+        padding-left: 80px;
+    }
+    
+    .card-list {
+        flex-direction: row;
+        display: wrap;
+        flex-wrap: wrap;
+        gap: 48px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .card {
+        height: 200px;
+        width: 250px;
+    }
+    
+    .show-more {
+        padding-left: 80px;
+    }
+    /************************************
+    *             ACTIVITES             *
+    ************************************/
+    
+    #activ h2 {
+        padding-top: 16px;
+        padding-left: 0;
+    }
+    
+    .activ-list {
+        flex-wrap: unset;
+        flex-direction: row;
+        gap: 120px;
+    }
+    
+    .cards {
+        height: unset;
+        width: 300px;
+    }
+    
+    .cards .card1 .big,
+    .cards .card4 .big {
+        flex-basis: 25%;
+        height: 445px;
+    }
+    
+    .big .image-activ img {
+        height: 389px;
+    }
+    
+    .card2 {
+        height: 235px;
+        margin-bottom: 50px;
+    }
+    
+    .card2 .image-activ img {
+        height: 180px;
+    }
+    
+    .card3 {
+        height: 160px;
+    }
+    
+    .card3 .image-activ img {
+        height: 109px;
+    }
+    
+    .card5 {
+        height: 198px;
+        margin-bottom: 30px;
+    }
+    
+    .card5 .image-activ img {
+        height: 138px;
+    }
+    
+    .card6 {
+        height: 209px;
+    }
+    
+    .card6 .image-activ img {
+        height: 150px;
+    }
+    /************************************
+    *            FOOTER                 *
+    ************************************/
+    
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 32px;
+    }
+    
+    .bas_page {
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
+    
+    .bas_page h3 {
+        padding: 30px 0 16px 0;
+    }

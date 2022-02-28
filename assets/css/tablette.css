@@ -1,0 +1,77 @@
+/************************************
+*            header                 *
+************************************/
+
+
+/************************************
+*            recherche              *
+************************************/
+
+.title-main {
+    padding-left: 0;
+}
+
+.recherche {
+    margin-bottom: 16px;
+}
+
+
+/************************************
+*            Filtres                *
+************************************/
+
+.filtre-list {
+    padding-left: 70px;
+}
+
+.filtre-list h2 {
+    padding-right: 0;
+}
+
+
+/************************************
+*               Infos               *
+************************************/
+
+.info {
+    margin-top: 16px;
+    padding-left: 70px;
+}
+
+
+/************************************
+*      Hébergements + Populaire     *
+************************************/
+
+.card-list-pop {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-more,
+.villes h2 {
+    padding-left: 64px;
+}
+
+
+/************************************
+*             ACTIVITES             *
+************************************/
+
+.activ-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+}
+
+#activ h2 {
+    padding-left: 64px;
+}
