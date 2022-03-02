@@ -48,6 +48,7 @@
     }
     
     .recherche {
+        align-self: unset;
         height: 50px;
     }
     
@@ -130,16 +131,14 @@
     }
     
     .villes h2 {
-        padding-left: 80px;
+        padding-left: 40px;
     }
     
     .card-list {
         flex-direction: row;
-        display: wrap;
         flex-wrap: wrap;
-        gap: 48px;
-        width: 100%;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 16px 40px;
     }
     
     .card {
@@ -148,7 +147,7 @@
     }
     
     .show-more {
-        padding-left: 80px;
+        padding-left: 40px;
     }
     /************************************
     *             ACTIVITES             *
@@ -162,7 +161,7 @@
     .activ-list {
         flex-wrap: unset;
         flex-direction: row;
-        gap: 120px;
+        justify-content: space-between;
     }
     
     .cards {
@@ -227,6 +226,7 @@
         display: inline-block;
         vertical-align: top;
         width: 30%;
+        padding: 16px 0 16px 0;
     }
     
     .bas_page h3 {

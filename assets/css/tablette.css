@@ -7,11 +7,18 @@
 *            recherche              *
 ************************************/
 
+.search {
+    align-items: unset;
+}
+
 .title-main {
-    padding-left: 0;
+    padding-left: 40px;
 }
 
 .recherche {
+    display: flex;
+    align-self: center;
+    padding: 0;
     margin-bottom: 16px;
 }
 
@@ -21,7 +28,7 @@
 ************************************/
 
 .filtre-list {
-    padding-left: 70px;
+    padding-left: 20px;
 }
 
 .filtre-list h2 {
@@ -35,13 +42,26 @@
 
 .info {
     margin-top: 16px;
-    padding-left: 70px;
+    padding-left: 40px;
 }
 
 
 /************************************
 *      Hébergements + Populaire     *
 ************************************/
+
+.titre-icon {
+    justify-content: unset;
+}
+
+.titre-icon h2 {
+    padding-left: 40px;
+}
+
+.titre-icon i {
+    margin-left: auto;
+    padding-right: 40px;
+}
 
 .card-list-pop {
     flex-direction: row;
@@ -57,7 +77,7 @@
 
 .show-more,
 .villes h2 {
-    padding-left: 64px;
+    padding-left: 40px;
 }
 
 
@@ -74,5 +94,13 @@
 }
 
 #activ h2 {
-    padding-left: 64px;
+    padding-left: 40px;
+}
+
+.cards {
+    height: unset;
+}
+
+.big .image-activ img {
+    height: 340px;
 }
