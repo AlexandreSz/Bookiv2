@@ -136,6 +136,7 @@
     }
     
     .villes h2 {
+        padding-top: 30px;
         display: flex;
         padding-left: 40px;
     }
