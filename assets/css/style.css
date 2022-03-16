@@ -136,14 +136,14 @@
     }
     
     .villes h2 {
+        display: flex;
         padding-left: 40px;
     }
     
     .card-list {
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        padding: 16px 40px;
+        justify-content: space-around;
+        padding: 16px 10px;
     }
     
     .card {
