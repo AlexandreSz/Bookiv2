@@ -107,23 +107,30 @@
         flex-basis: 33%;
         border-radius: 16px;
         padding: 16px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .card-list-pop {
+        justify-content: center;
         padding: 16px 40px;
     }
     
     .card-pop {
-        width: 343px;
+        height: 145px;
+        width: 344px;
     }
     
     .titre-icon h2 {
-        padding-right: 40px;
-        margin-left: auto;
+        align-items: center;
+        padding-left: 40px;
     }
     
     .titre-icon i {
-        margin-right: auto;
+        align-items: center;
+        margin-left: 0;
+        padding-left: 60px;
     }
     /************************************
     *             Hébergements          *
@@ -135,26 +142,32 @@
         border-radius: 16px;
     }
     
+    .show-more,
     .villes h2 {
-        padding-top: 30px;
-        display: flex;
         padding-left: 40px;
-    }
-    
-    .card-list {
-        flex-direction: row;
-        justify-content: space-around;
-        padding: 16px 10px;
-    }
-    
-    .card {
-        height: 200px;
-        width: 250px;
     }
     
     .show-more {
         padding-top: 20px;
-        padding-left: 40px;
+    }
+    
+    .villes .card-list {
+        padding: 16px 40px;
+    }
+    
+    .villes h2 {
+        padding-top: 30px;
+        display: flex;
+    }
+    
+    .card-list {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .card {
+        height: 199px;
+        width: 247px;
     }
     /************************************
     *             ACTIVITES             *
@@ -205,7 +218,7 @@
     
     .card5 {
         height: 198px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     
     .card5 .image-activ img {
