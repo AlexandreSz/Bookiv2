@@ -66,6 +66,7 @@
     .recherche button {
         border-radius: 0 16px 16px 0;
         height: 50px;
+        width: auto;
     }
     /************************************
     *            Filtres                *
@@ -169,6 +170,15 @@
         height: 199px;
         width: 247px;
     }
+    
+    .card-body p {
+        font-size: 12px;
+        margin: 5px 0 8px 0;
+    }
+    
+    .card-body h3 {
+        margin-top: 5px;
+    }
     /************************************
     *             ACTIVITES             *
     ************************************/
@@ -178,8 +188,13 @@
         padding-left: 0;
     }
     
+    .activ-list h3 {
+        font-size: 16px;
+        align-items: center;
+        margin-top: 12px;
+    }
+    
     .activ-list {
-        flex-wrap: unset;
         flex-direction: row;
         justify-content: space-between;
     }
@@ -187,6 +202,7 @@
     .cards {
         height: unset;
         width: 300px;
+        min-width: 200px;
     }
     
     .cards .card1 .big,
@@ -213,7 +229,7 @@
     }
     
     .card3 .image-activ img {
-        height: 109px;
+        height: 105px;
     }
     
     .card5 {

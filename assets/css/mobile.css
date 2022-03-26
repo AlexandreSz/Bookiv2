@@ -100,7 +100,7 @@ i.fa-solid.fa-location-dot {
     font-size: 19px;
     padding: 16px 17px;
     background-color: var(--grey);
-    border-radius: 16px 0 0 16px;
+    border-radius: 13px 0 0 13px;
 }
 
 .recherche button i {
@@ -112,6 +112,7 @@ i.fa-solid.fa-location-dot {
     border-radius: 16px;
     padding: 0 12px;
     height: 51px;
+    width: 51px;
     background-color: var(--blue);
     color: white;
     cursor: pointer;
@@ -156,7 +157,7 @@ i.fa-solid.fa-location-dot {
     display: flex;
     align-items: center;
     height: 50px;
-    border: 1px solid var(--grey);
+    border: 2px solid var(--grey);
     border-radius: 32px;
 }
 
@@ -185,7 +186,7 @@ i.fa-solid.fa-location-dot {
 .info {
     display: flex;
     padding: 0 16px;
-    margin-bottom: 16px;
+    margin: 16px 0;
     gap: 8px;
 }
 
@@ -239,7 +240,7 @@ i.fa-solid.fa-location-dot {
 }
 
 .image-pop {
-    padding: 8px 8px 8px 8px;
+    padding: 5px 5px;
 }
 
 .image-pop img {
@@ -331,7 +332,7 @@ i.fa-solid.fa-location-dot {
 }
 
 .image {
-    padding: 8px 8px 0 8px;
+    padding: 5px 5px 0 5px;
 }
 
 .image img {
@@ -348,12 +349,11 @@ i.fa-solid.fa-location-dot {
 
 .card-body p {
     font-size: 12px;
-    margin: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    margin: 5px 0 3px 0;
 }
 
 .card-body .stars {
+    font-size: 12px;
     margin-top: auto;
 }
 
@@ -423,7 +423,7 @@ i.fa-solid.fa-location-dot {
     transform: scale(1.05);
 }
 
-.activ-list>* h3 {
+.activ-list h3 {
     padding-left: 16px;
     margin-top: 8px;
 }
